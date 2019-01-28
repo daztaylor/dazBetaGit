@@ -8,14 +8,11 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   }
 } : {}
 
-export default {
-  router: {
-    base: '/dazBetaGit/'
-  }
-}
 
 module.exports = {
   mode: 'spa',
+
+  ...routerBase,
   /*
   ** Headers of the page
   */
