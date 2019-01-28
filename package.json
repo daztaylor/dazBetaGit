@@ -1,5 +1,5 @@
 {
-  "name": "dazBetaGit",
+  "name": "dazbetagit",
   "version": "1.0.0",
   "description": "My splendiferous Nuxt.js project",
   "author": "Darren Taylor",
@@ -8,7 +8,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
