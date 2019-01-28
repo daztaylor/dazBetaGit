@@ -7,6 +7,7 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
     base: '/dazBetaGit/'
   }
 } : {}
+
 export default {
   router: {
     base: '/dazBetaGit/'
