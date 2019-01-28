@@ -4,18 +4,17 @@ const pkg = require('./package')
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/dazbetagit/'
+    base: '/dazBetaGit/'
   }
 } : {}
 export default {
   router: {
-    base: '/dazbetagit/'
+    base: '/dazBetaGit/'
   }
 }
 
 module.exports = {
   mode: 'spa',
-
   /*
   ** Headers of the page
   */
