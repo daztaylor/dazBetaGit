@@ -9,8 +9,7 @@
         Open source on <a href="https://github.com/buefy/buefy"> GitHub</a>
       </card>
 
-      Hi
-
+    
       <card
         title="Responsive"
         icon="cellphone-link"
